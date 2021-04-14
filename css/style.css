@@ -1,0 +1,436 @@
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+*{margin:0;padding:0;}
+@font-face{
+	font-family: "Technology";
+	src:url("Technology.ttf");
+}
+#main_wrapper{
+	margin:0 auto;
+	width: 100%;
+	background:;
+	height:auto;
+	position:relative;
+}	
+
+/*-- Header --*/
+#header{
+	position:relative;
+	height:52px;
+	background:#20da7b;
+}
+.title-1{
+	display:;
+	font-size:28px;
+	text-align:center;
+	padding-top:12px;
+}
+#IT{
+	display:inline-block;
+	font-size:28px;
+	color:blue;
+}
+
+/*-- Home Button --*/
+.Home{
+	position:absolute;
+	top:6px;
+	right:130px;
+	text-decoration:none;
+}
+.Login{
+	position:absolute;
+	top:6px;
+	right:20px;
+	text-decoration:none;
+}
+.Home{
+	display:block;
+	width:100px;
+	height:40px;
+	background:#9d13b5;
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+	border-radius:15px;
+	transition:all 0.5s ease;
+}
+.Login{
+	display:block;
+	width:100px;
+	height:40px;
+	background:#f44336;
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+	border-radius:15px;
+	transition:all 0.5s ease;
+}
+.Home:hover,.Login:hover{
+	color:#000;
+	background:#667;
+	border-radius:15px;
+	transition:all 0.2s ease; 
+	font-size:19px;
+}
+.Home:active,.Login:active{
+	background:#6cbd0f;
+}
+
+#Tab{
+	position:relative;
+	left:0;
+	float:left;
+	width:65%;
+	height:573.2px;
+	background:#BDBDBD;
+}
+.Scroll{
+	position:relative;
+	right:5px;
+	float:right;
+	width:90%;
+	height:40px;
+	background:#1d1e1f;
+	text-align:center;
+	font-size:24px;
+	color:#fff;
+	padding-top:10px;
+	margin:3px 0 5px 0;
+}
+.News{
+	position:relative;
+	left:0px;
+	float:left;
+	width:10%;
+	height:40px;
+	background:red;
+	text-align:center;
+	font-size:24px;
+	color:#fff;
+	padding-top:10px;
+	margin:3px 0 5px 0;
+}
+#Clock{
+	position:relative;
+	right:5px;
+	float:right;
+	width:38%;
+	height:200px;
+	text-align:center;
+	font-size:30px;
+	color:#fff;
+}
+
+.info-1{
+	position:relative;
+	left:5px;
+	float:left;
+	width:60%;
+	height:30px;
+	background:#2196F3;
+	text-align:center;
+	padding-top:5px;
+	font-size:24px;
+}
+.info-2{
+	position:relative;
+	left:5px;
+	float:left;
+	width:30%;
+	height:30px;
+	background:#4CAF50;
+	text-align:center;
+	padding-top:5px;
+	font-size:24px;
+}
+#Date{
+	position:relative;
+	left:5px;
+	float:left;
+	width:30%;
+	height:30px;
+	color:;
+	background:#e20c0c;
+	text-align:center;
+	padding-top:5px;
+	font-size:24px;
+}
+#Tab-2{
+	position:relative;
+	right:0;
+	top:0;
+	float:right;
+	width:35%;
+	height:203px;
+	background:#595959;
+}
+#Tab p{
+	text-align:center;
+	padding-top:10px;
+	vertical-align:middle;
+}
+
+.Tbl-1{
+	position:relative;
+	top:0px;
+	left:20px;
+	font-size:20px;
+}
+.td-1{
+	position:relative;
+	top:0px;
+	background:#AFABAB;
+	padding:8px  15px 8px  15px;
+	color:#fff;
+	max-height:25px;
+}
+.td-2{
+	position:relative;
+	top:0px;
+	right:10px;
+	background:#D9D9D9;
+	padding:8px 28px 8px 25px;
+	color:#000;
+	max-height:25px;
+	margin-bottom:10px;
+}
+
+#Box-Right{
+	position:relative;
+	right:0px;
+	float:right;
+	background:#7f7f7f;
+	width:35%;
+	height:370px;
+}
+#Search{
+	position:relative;
+	left:0px;
+	background:;
+	width:100%;
+	height:35px;
+	margin:30px 0 20px 0;
+}
+.sID{
+	position:relative;
+	left:35px;
+	background:#fff;
+	width:57%;
+	height:38px;
+	font-size:18px;
+	padding-left:10px;
+	border-radius:10px 0 0 10px;
+}
+.Search{
+	position:relative;
+	left:34px;
+	background:#3F51B5;
+	width:23%;
+	height:37px;
+	color:#fff;
+	text-align:center;
+	font-size:18px;
+	border:2px solid black;
+}
+.Search:hover{background:#282e4c;}
+.Search:active{background:#009688;}
+.SR{color:#711c3f; 
+	font-weight:bold;
+	margin-top:5px;
+	height:40px;
+	font-style:underline;
+} 
+
+.Tbl-3{
+	position:relative;
+	left:35px;
+	background:#fff;
+	font-size:18px;
+	width:80%;
+	padding:0 20px 0 20px;
+}
+.DaP{
+	color:green; 
+	font-weight:bold;
+	margin-top:5px;
+	height:40px;
+	font-style:underline;
+}
+.td-3{color:#03A9F4;}
+.td-4{color:blue;}
+.Status{
+	color:red; 
+	font-weight:bold;
+	margin-top:5px;
+	height:40px;
+}
+.td-3{
+	width:40%;
+	height:32px;
+}
+
+
+.Tbl-2{
+	position:relative;
+	left:5px;
+	Width:60%;
+	margin-bottom:10px;
+}
+.Tbl-2 td{
+	width:150px;
+	height:80px;
+	background:#f2f2f2;
+	border-collapse:collapse;
+	border:5px solid #525252;
+}
+.td-5{
+	color:#000;
+	text-align:center;
+	font-size:20px;
+}.td-6{
+	color:#9C27B0;
+	text-align:center;
+}.td-7{
+	color:#fb1e0e;
+	text-align:center;
+}.td-8{
+	color:#09a70f;
+	text-align:center;
+}
+
+.btn{
+	position:relative;
+	left:5px;
+	width:14.6%;
+	text-align:center;
+	height:30px;
+	padding:5px 0 5px 0;
+	background:blue;
+	border-radius:10px;
+	transition:all 0.5s ease;
+}
+.btn:hover{
+	background:yellow;
+}
+
+.div1{background:#ff9800;}
+.div2{background:#009688;}
+.div3{background:#ff5722;}
+.div4{background:#ba7fbb;}
+.div5{background:#853;}
+.div6{background:#973;}
+.div7{background:#80b8e0;}
+.div8{background:#626eaf;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------Date And Time-----------*/
+.datetime{
+	position:relative;
+	right:0;
+  color: #fff;
+  background: #F44336;
+  font-family: "Segoe UI", sans-serif;
+  width: 97%;
+  padding:15px 0 15px 0;
+  border: 3.3px solid #2E94E3;
+  border-radius: 5px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+  transition: 0.5s;
+  transition-property: background, box-shadow;
+}
+
+.datetime:hover{
+  background: #2E94E3;
+  box-shadow: 0 0 30px #2E94E3;
+}
+
+.date{
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.time{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time span:not(:last-child){
+  position: relative;
+  margin: 0 6px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.time span:last-child{
+  background: #2E94E3;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 0 5px;
+  border-radius: 3px;
+}
+		
+	
+/*----------footer-----------*/
+#footer{
+	position:relative;
+	width:100%;
+	height:40px;
+	background:#18161b;
+	border:none;
+	margin-top:0px;
+	float:left;
+}
+#footer p{
+	color:#fff;
+	text-align:center;
+	display:block;
+	padding:10px 20px;
+	font-size:18px;
+}
+#footer p a{
+	text-decoration:none;
+	color:#3333FF;
+}
+#footer p a:hover {
+	color:red;
+}
+
+/*----------End-----------*/	
+/*---------------------
+Authorized::Forhad Reza
+-----------*/

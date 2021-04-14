@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Covid-19 Live Data Table</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<!--/*---------------------
+Authorized::Forhad Reza
+-----------*/-->
+	<!-- Header -->
+	<header>
+		<div id="header">
+		<!-- <p id="IT">|Next_digit|</p> -->
+		<p class="title-1">Covid-19 Live Data Table</p>	
+		<a href="#" > <button class="Home"> Home </button></a>
+		<a href="#"> <button class="Login"> Login </button></a>
+		</div>
+	</header>
+
+<div id="main_wrapper">
+
+<!-- Box-Left -->
+<div id="Tab">
+
+	<span class="News">News</span>
+	<span class="Scroll">
+<marquee>
+|| ----Welcome---- || ---- Covid-19 Live Data Table---- || 
+</marquee>
+</span>
+
+<!--Digital clock -->
+<span id="Clock">
+  <body onload="initClock()">
+    <!--digital clock start-->
+    <div class="datetime">
+      <div class="date">
+        <span id="dayname">Day</span>,
+        <span id="month">Month</span>
+        <span id="daynum">00</span>,
+        <span id="year">Year</span>
+      </div>
+      <div class="time">
+        <span id="hour">00</span>:
+        <span id="minutes">00</span>:
+        <span id="seconds">00</span>
+        <span id="period">AM</span>
+      </div>
+    </div>
+    <!--digital clock end-->
+  </body>
+</span>
+
+
+<span class="info-1">Global</span>
+	<div id="Box-Left">
+	<table class="Tbl-2" cellspacing="0">
+	<tr>
+		<td><p class="td-5">Total Confirmed
+		<br><span id="G1" class="td-6">00000000</span></p></td>
+		<td><p class="td-5">Total Deaths<br>
+		<span id="G2" class="td-7">00000000</span></p></td>
+		<td><p class="td-5">Total Recovered<br>
+		<span id="G3" class="td-8">00000000</span></p></td>
+	</tr>
+	<tr>
+		<td><p class="td-5">New Confirmed</span>
+		<br><span id="G4" class="td-6">00000000</span></p></td>
+		<td><p class="td-5">New Deaths<br>
+		<span id="G5" class="td-7">00000000</span></p></td>
+		<td><p class="td-5">New Recovered<br>
+		<span id="G6" class="td-8">00000000</span></p></td>
+	</tr>
+		</table>
+	</div>
+<span class="info-2">Bangladesh</span><span id="Date"></span>
+	<div id="Box-Left">
+	<table class="Tbl-2" cellspacing="0">
+	<tr>
+		<td><p class="td-5">Total Confirmed
+		<br><span id="B1" class="td-6">00000000</span></p></td>
+		<td><p class="td-5">Total Deaths<br>
+		<span id="B2" class="td-7">00000000</span></p></td>
+		<td><p class="td-5">Total Recovered<br>
+		<span id="B3" class="td-8">00000000</span></p></td>
+	</tr>
+	<tr>
+		<td><p class="td-5">New Confirmed</span>
+		<br><span id="B4" class="td-6">00000000</span></p></td>
+		<td><p class="td-5">New Deaths<br>
+		<span id="B5" class="td-7">00000000</span></p></td>
+		<td><p class="td-5">New Recovered<br>
+		<span id="B6" class="td-8">00000000</span></p></td>
+	</tr>
+	</table>
+	</div>
+	
+	<a href="#" ><button class="btn div1">Barishal</button></a>
+	<a href="#" ><button class="btn div2">Chattogram</button></a>
+	<a href="#" ><button class="btn div3">Dhaka</button></a>
+	<a href="#" ><button class="btn div4">Mymensingh</button></a><br />
+	<a href="#" ><button class="btn div5">Khulna</button></a>
+	<a href="#" ><button class="btn div6">Rajshahi</button></a>
+	<a href="#" ><button class="btn div7">Rangpur</button></a>
+	<a href="#" ><button class="btn div8">Sylhet</button></a>
+
+</div>
+
+<div id="Tab-2">
+<!-- Table-1 -->
+	<table class="Tbl-1" cellpadding="15px" cellspacing=20>
+	<tr>
+		<td class="td-1">Total Population</td>
+		<td class="td-2">00000000</td>
+	</tr>
+	<tr>
+		<td class="td-1">Total Vaccine Available</td>
+		<td class="td-2">00000000</td>
+	</tr>
+	<tr>
+		<td class="td-1">Total Vaccine Recipients </td>
+		<td class="td-2">00000000</td>
+	</tr>
+	</table>
+</div>
+
+
+<!-- Box-Right -->
+<div id="Box-Right">
+<!-- Search -->
+<div id="Search">
+	<input type="search" class="sID" placeholder="Enter your 8 digit form ID"/><input type="submit" value="Search" class="Search"/>
+</div>
+<!-- Table-2 -->
+	<table class="Tbl-3">
+		<tr>
+			<td class="SR" align="center" colspan="2">Search Result</td>
+		</tr>
+		<tr>
+			<td class="td-3">Your Name: </td>
+			<td class="Name">MD. Farhan Morshed</td>
+		</tr>
+		<tr>
+			<td class="td-3">Dath of Birth: </td>
+			<td class="DoB">01/01/2000</td>
+		</tr>
+		<tr>
+			<td class="DaP" align="center" colspan="2">Date and place of Vaccination</td>
+		</tr>
+		<tr>
+			<td class="td-3">Date: </td>
+			<td class="dt">01/01/2121</td>
+		</tr>
+		<tr>
+			<td class="td-3">Place: </td>
+			<td class="place">Dhaka</td>
+		</tr>
+		<tr>
+			<td class="Status">Status: </td>
+			<td class="td-4">N/A</td>
+		</tr>
+	</table>	
+</div>
+<!--/*---------------------
+Authorized::Forhad Reza
+-----------*/-->
+	<!-- Footer -->
+	<footer>
+		<div id="footer">
+			<p>&copy All Right Reserved By <a href="http://facebook.com/FrezaCSE/" target="_blank">  Next_Digit </a></p>
+		</div>
+	</footer>
+	
+</div>
+	<!-- JavaScript -->
+	<script src="js/date-time.js"></script>	
+	<script src="js/main.js"></script>		
+</body>
+</html>
