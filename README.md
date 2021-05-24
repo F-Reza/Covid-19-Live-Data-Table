@@ -5,7 +5,7 @@ Covid-19-Live-Data-Table
 
 ***Repository https://github.com/F-Reza/Covid-19-Live-Data-Table/
 
-###############################################################################
+#################################################################################
 
 ![Screenshot](https://user-images.githubusercontent.com/75982069/114743663-b4c98080-9d6e-11eb-9996-69902cd4bd21.png)
 
@@ -15,4 +15,4 @@ The objective of this project is to give the people of our country a soft, relia
 ![Covid19](https://user-images.githubusercontent.com/75982069/114742485-9c0c9b00-9d6d-11eb-9de7-4ff48baff0b6.gif)
 
 
-###############################################################################
+#################################################################################
